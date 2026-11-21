@@ -1,0 +1,11 @@
+category,source_row,context,candidate,regex_match,ipv4_valid,source_label,analyst_note
+invalid octet / bad shape,5,	<string>3608.80.24.1.8</string>,608.80.24.1,False,False,n,octet >255 (invalid); candidate is embedded inside longer dotted token '3608.80.24.1.8' (prefix/suffix contamination or version string)
+invalid octet / bad shape,9,	<string>3608.80.24.1.8</string>,608.80.24.1,False,False,n,octet >255 (invalid); candidate is embedded inside longer dotted token '3608.80.24.1.8' (prefix/suffix contamination or version string)
+additional,0,	<string>1.000.000.000+</string>,1.000.000.000,True,False,a,leading-zero octet (strict validator rejects)
+additional,1,	<key>1.0.0.1</key>,1.0.0.1,True,True,a,
+additional,2,	<string>1.0.0.1</string>,1.0.0.1,True,True,a,
+additional,3,	<key>1.1.1.1</key>,1.1.1.1,True,True,a,
+additional,4,	<string>1.1.1.1</string>,1.1.1.1,True,True,a,
+additional,6,			<string>eng-USA-1.0.0.14-20170731</string>,1.0.0.14,True,True,a,
+additional,7,			<string>cmn-CHN-1.0.0.12-20170804</string>,1.0.0.12,True,True,a,
+additional,8,	<string>3.6.1.4</string>,3.6.1.4,True,True,a,

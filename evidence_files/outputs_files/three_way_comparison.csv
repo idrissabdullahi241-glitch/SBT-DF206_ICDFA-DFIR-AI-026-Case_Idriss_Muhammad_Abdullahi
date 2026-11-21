@@ -1,0 +1,11 @@
+regex_match,ipv4_valid,source_label,count
+False,False,n,11
+False,True,a,3
+True,False,a,3
+True,False,b,1
+True,False,n,13
+True,True,a,171
+True,True,b,11
+True,True,c,4
+True,True,e,4
+True,True,n,8

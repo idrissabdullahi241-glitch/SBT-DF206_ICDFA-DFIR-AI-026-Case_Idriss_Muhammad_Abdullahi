@@ -1,0 +1,2 @@
+fine_tuning_steps.txt: shape=(734, 6); columns=['step', 'elapsed_tokens', 'elapsed_examples', 'training_loss', 'training_sequence_accuracy', 'training_token_accuracy']
+result.csv: shape=(733, 15); columns=['step', 'elapsed_tokens', 'elapsed_examples', 'training_loss', 'training_sequence_accuracy', 'training_token_accuracy', 'validation_loss', 'validation_sequence_accuracy', 'validation_token_accuracy', 'classification/accuracy', 'classification/precision', 'classification/recall', 'classification/auroc', 'classification/auprc', 'classification/f1.0']
