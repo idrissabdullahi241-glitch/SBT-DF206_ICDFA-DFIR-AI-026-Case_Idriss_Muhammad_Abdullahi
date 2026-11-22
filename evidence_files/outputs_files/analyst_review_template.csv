@@ -1,0 +1,9 @@
+record_id,context,candidate,actual,ml_pred,ml_score_positive,ml_outcome,rule_context_outcome,candidate_ipv4_valid,analyst_decision,rationale_in_your_words,escalate_Y_N
+15,<string>64.98.122.70</string>,64.98.122.70,positive,positive,0.5454,TP,TP,True,,,
+19,<string>257.0.1.38.116</string>,257.0.1.38,negative,negative,-0.3956,TN,TN,False,,,
+20,<string>257.0.1.38.116</string>,257.0.1.38,negative,negative,-0.3956,TN,TN,False,,,
+21,<string>tincan_register_device_256.0.1.26.113</string>,256.0.1.26,negative,positive,0.566,FP,TN,False,,,
+22,<string>tincan_register_device_257.0.1.38.116</string>,257.0.1.38,negative,negative,-0.3007,TN,TN,False,,,
+23,<string>257.0.1.38.116</string>,257.0.1.38,negative,negative,-0.3956,TN,TN,False,,,
+24,<string>257.0.1.38.116</string>,257.0.1.38,negative,negative,-0.3956,TN,TN,False,,,
+36,<string>5.12.20.4.10.18.5.5.2</string>,10.18.5.5,positive,positive,0.5442,TP,FN,True,,,

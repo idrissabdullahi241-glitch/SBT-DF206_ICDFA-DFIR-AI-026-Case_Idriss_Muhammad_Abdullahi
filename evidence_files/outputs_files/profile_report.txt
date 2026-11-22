@@ -1,0 +1,34 @@
+
+== dataset_small.csv ==
+delimiter detected: ','
+record count: 229
+columns: ['ip', 'class', 'text']
+detected -> context: text | candidate: ip | label: None    (override with --context-col/--candidate-col/--label-col if wrong)
+null counts:
+ip       0
+class    0
+text     0
+fully duplicated rows: 77
+duplicated context strings: 85
+candidate NOT literally present in its context: 0
+same candidate with CONFLICTING labels: n/a
+rows with leading/trailing whitespace in any text cell: 229
+
+== dataset_train.jsonl ==
+valid records: 183 | invalid/blank lines: []
+class balance:
+positive    163
+negative     20
+raw completion spellings: [' negative', ' positive']
+separator tail of first prompt: '0.000.000 ->'
+
+== dataset_test.jsonl ==
+valid records: 46 | invalid/blank lines: []
+class balance:
+positive    34
+negative    12
+raw completion spellings: [' negative', ' positive']
+separator tail of first prompt: '8.80.24.1 ->'
+
+Split check -> train=183 (expect 183), test=46 (expect 46): OK
+train+test = 229 | CSV rows = 229

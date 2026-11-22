@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,TP,FN,FP,TN,note
+0.9,0.0,0.0,0.0,0,10,0,90,"SYNTHETIC illustration (10 pos / 90 neg, predict-all-negative) - not lab data"
